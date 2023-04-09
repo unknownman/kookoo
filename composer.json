@@ -1,5 +1,5 @@
 {
-  "name": "kookoo/core",
+  "name": "KooKoo/Core",
   "description": "KooKoo php framework core libraries",
   "type": "library",
   "license": "MIT",
@@ -22,5 +22,8 @@
     "allow-plugins": {
       "pestphp/pest-plugin": true
     }
+  },
+  "require": {
+    "symfony/dotenv": "^6.2"
   }
 }
