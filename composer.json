@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Zenith\\Framework": "src/"
+      "Zenith\\Framework\\": "src/"
     }
   },
   "minimum-stability": "stable",
