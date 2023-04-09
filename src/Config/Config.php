@@ -1,10 +1,10 @@
 <?php
 
-namespace KooKoo\Core;
+namespace KooKoo\Core\Config;
 
 use Symfony\Component\Dotenv\Dotenv;
 
-class Config
+class Env
 {
     public $config;
 
