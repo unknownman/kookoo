@@ -1,6 +1,6 @@
 {
-  "name": "zenith/framework",
-  "description": "new generation php framework",
+  "name": "kookoo/core",
+  "description": "KooKoo php framework core libraries",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Zenith\\Framework": "src/"
+      "KooKoo\\Core\\": "src/"
     }
   },
   "minimum-stability": "stable",
