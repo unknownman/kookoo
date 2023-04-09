@@ -1,6 +1,6 @@
 <?php
 
-namespace Kookoo\Core;
+namespace KooKoo\Core;
 
 use Symfony\Component\Dotenv\Dotenv;
 
@@ -13,11 +13,19 @@ use Symfony\Component\Dotenv\Dotenv;
  * @package kookoo/core
  */
 
-namespace kookoo\core;
 
 class Application
 {
-
-    // 
-
+    /**
+     * Version number of the application/library.
+     *
+     * This property stores the version number of the KooKoo framework . 
+     * The version is a string that follows the "Major.Minor.Patch" format, 
+     * where "Major" is the major release version, "Minor" is the minor release 
+     * version, and "Patch" is the patch release version. The version can also 
+     * include additional labels such as "-alpha", "-beta", or "-rc1".
+     *
+     * @var string
+     */
+    protected $version = "0.1.0-alpha";
 }
